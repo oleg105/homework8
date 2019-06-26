@@ -1,0 +1,16 @@
+#1
+SELECT * FROM workers WHERE id=3;
+#2
+SELECT * FROM workers WHERE salary=1000;
+#3
+SELECT * FROM workers WHERE age=23;
+#4
+SELECT * FROM workers WHERE salary>400;
+#5
+SELECT * FROM workers WHERE salary>=500;
+#6
+SELECT * FROM workers WHERE salary!=500;
+#7
+SELECT * FROM workers WHERE salary<=900;
+#8
+SELECT age, salary FROM workers WHERE name='Вася';
